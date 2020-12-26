@@ -3,7 +3,7 @@ import { io } from 'socket.io-client';
 
 import './App.css';
 
-const socketURL = 'http://192.168.0.194:8000';
+const socketURL = '/';
 
 export default class App extends React.Component {
   constructor(props) {
